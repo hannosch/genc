@@ -2,10 +2,7 @@
 from unittest import TestCase
 
 import genc
-from genc.regions import (
-    Region,
-    REGIONS,
-)
+from genc.regions import Region
 
 
 class TestAPI(TestCase):
@@ -34,20 +31,20 @@ class TestCache(TestCase):
         self.assertTrue(len(genc._alpha2) > 200)
         self.assertTrue(len(genc._alpha3) > 200)
         self.assertTrue(len(genc._name) > 200)
-        self.assertEqual(len(genc._alpha3), len(REGIONS))
+        self.assertEqual(len(genc._alpha3), len(genc.REGIONS))
 
 
 class TestData(TestCase):
 
     def test_length(self):
-        self.assertTrue(len(REGIONS) > 200)
-        self.assertTrue(len(REGIONS) < 500)
+        self.assertTrue(len(genc.REGIONS) > 200)
+        self.assertTrue(len(genc.REGIONS) < 500)
 
     def test_iterable(self):
         i = 0
-        for region in REGIONS:
+        for region in genc.REGIONS:
             i += 1
-        self.assertEqual(i, len(REGIONS))
+        self.assertEqual(i, len(genc.REGIONS))
 
 
 class TestRegion(TestCase):
