@@ -2,7 +2,7 @@
 Regenerate the `data/regions.json` file from the GENC zipfile.
 
 Invoke as::
-    $ bin/python build.py "data/GENC Standard Index XML Ed3.0.zip"
+    $ make data
 """
 
 import collections
@@ -87,12 +87,9 @@ def write_data(regions):
     regions = sorted(regions, key=operator.itemgetter('char3Code'))
     with open(JSON_FILE, 'wt') as fd:
         json.dump(regions, fd, ensure_ascii=False, indent=2)
-    # TODO Write a file with Python friendly names and using named
-    # tuples instead
     with open(PY_FILE, 'wt') as fd:
         fd.write(PY_PREAMBLE)
         for region in regions:
-            # fd.write(json.dumps(regions, ensure_ascii=False, indent=4))
             data = []
             for in_ in PY_NAMEMAP.keys():
                 value = region[in_]
