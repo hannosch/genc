@@ -1,0 +1,2242 @@
+[
+  {
+    "char3Code": "ABW",
+    "char2Code": "AW",
+    "numericCode": "533",
+    "name": "ARUBA",
+    "shortName": "Aruba",
+    "fullName": "Aruba"
+  },
+  {
+    "char3Code": "AFG",
+    "char2Code": "AF",
+    "numericCode": "004",
+    "name": "AFGHANISTAN",
+    "shortName": "Afghanistan",
+    "fullName": "Islamic Republic of Afghanistan"
+  },
+  {
+    "char3Code": "AGO",
+    "char2Code": "AO",
+    "numericCode": "024",
+    "name": "ANGOLA",
+    "shortName": "Angola",
+    "fullName": "Republic of Angola"
+  },
+  {
+    "char3Code": "AIA",
+    "char2Code": "AI",
+    "numericCode": "660",
+    "name": "ANGUILLA",
+    "shortName": "Anguilla",
+    "fullName": "Anguilla"
+  },
+  {
+    "char3Code": "ALB",
+    "char2Code": "AL",
+    "numericCode": "008",
+    "name": "ALBANIA",
+    "shortName": "Albania",
+    "fullName": "Republic of Albania"
+  },
+  {
+    "char3Code": "AND",
+    "char2Code": "AD",
+    "numericCode": "020",
+    "name": "ANDORRA",
+    "shortName": "Andorra",
+    "fullName": "Principality of Andorra"
+  },
+  {
+    "char3Code": "ARE",
+    "char2Code": "AE",
+    "numericCode": "784",
+    "name": "UNITED ARAB EMIRATES",
+    "shortName": "United Arab Emirates",
+    "fullName": "United Arab Emirates"
+  },
+  {
+    "char3Code": "ARG",
+    "char2Code": "AR",
+    "numericCode": "032",
+    "name": "ARGENTINA",
+    "shortName": "Argentina",
+    "fullName": "Argentine Republic"
+  },
+  {
+    "char3Code": "ARM",
+    "char2Code": "AM",
+    "numericCode": "051",
+    "name": "ARMENIA",
+    "shortName": "Armenia",
+    "fullName": "Republic of Armenia"
+  },
+  {
+    "char3Code": "ASM",
+    "char2Code": "AS",
+    "numericCode": "016",
+    "name": "AMERICAN SAMOA",
+    "shortName": "American Samoa",
+    "fullName": "Territory of American Samoa"
+  },
+  {
+    "char3Code": "ATA",
+    "char2Code": "AQ",
+    "numericCode": "010",
+    "name": "ANTARCTICA",
+    "shortName": "Antarctica",
+    "fullName": "Antarctica"
+  },
+  {
+    "char3Code": "ATF",
+    "char2Code": "TF",
+    "numericCode": "260",
+    "name": "FRENCH SOUTHERN AND ANTARCTIC LANDS",
+    "shortName": "French Southern and Antarctic Lands",
+    "fullName": "French Southern and Antarctic Lands"
+  },
+  {
+    "char3Code": "ATG",
+    "char2Code": "AG",
+    "numericCode": "028",
+    "name": "ANTIGUA AND BARBUDA",
+    "shortName": "Antigua and Barbuda",
+    "fullName": "Antigua and Barbuda"
+  },
+  {
+    "char3Code": "AUS",
+    "char2Code": "AU",
+    "numericCode": "036",
+    "name": "AUSTRALIA",
+    "shortName": "Australia",
+    "fullName": "Commonwealth of Australia"
+  },
+  {
+    "char3Code": "AUT",
+    "char2Code": "AT",
+    "numericCode": "040",
+    "name": "AUSTRIA",
+    "shortName": "Austria",
+    "fullName": "Republic of Austria"
+  },
+  {
+    "char3Code": "AX1",
+    "char2Code": "A1",
+    "numericCode": "932",
+    "name": "UNKNOWN",
+    "shortName": "Unknown",
+    "fullName": "Unknown"
+  },
+  {
+    "char3Code": "AX2",
+    "char2Code": "A2",
+    "numericCode": "918",
+    "name": "GUANTANAMO BAY NAVAL BASE",
+    "shortName": "Guantanamo Bay Naval Base",
+    "fullName": "Guantanamo Bay Naval Base"
+  },
+  {
+    "char3Code": "AX3",
+    "char2Code": "A3",
+    "numericCode": "914",
+    "name": "ENTITY 6",
+    "shortName": "Entity 6",
+    "fullName": "Entity 6"
+  },
+  {
+    "char3Code": "AZE",
+    "char2Code": "AZ",
+    "numericCode": "031",
+    "name": "AZERBAIJAN",
+    "shortName": "Azerbaijan",
+    "fullName": "Republic of Azerbaijan"
+  },
+  {
+    "char3Code": "BDI",
+    "char2Code": "BI",
+    "numericCode": "108",
+    "name": "BURUNDI",
+    "shortName": "Burundi",
+    "fullName": "Republic of Burundi"
+  },
+  {
+    "char3Code": "BEL",
+    "char2Code": "BE",
+    "numericCode": "056",
+    "name": "BELGIUM",
+    "shortName": "Belgium",
+    "fullName": "Kingdom of Belgium"
+  },
+  {
+    "char3Code": "BEN",
+    "char2Code": "BJ",
+    "numericCode": "204",
+    "name": "BENIN",
+    "shortName": "Benin",
+    "fullName": "Republic of Benin"
+  },
+  {
+    "char3Code": "BES",
+    "char2Code": "BQ",
+    "numericCode": "535",
+    "name": "BONAIRE, SINT EUSTATIUS, AND SABA",
+    "shortName": "Bonaire, Sint Eustatius, and Saba",
+    "fullName": "Bonaire, Sint Eustatius, and Saba"
+  },
+  {
+    "char3Code": "BFA",
+    "char2Code": "BF",
+    "numericCode": "854",
+    "name": "BURKINA FASO",
+    "shortName": "Burkina Faso",
+    "fullName": "Burkina Faso"
+  },
+  {
+    "char3Code": "BGD",
+    "char2Code": "BD",
+    "numericCode": "050",
+    "name": "BANGLADESH",
+    "shortName": "Bangladesh",
+    "fullName": "People’s Republic of Bangladesh"
+  },
+  {
+    "char3Code": "BGR",
+    "char2Code": "BG",
+    "numericCode": "100",
+    "name": "BULGARIA",
+    "shortName": "Bulgaria",
+    "fullName": "Republic of Bulgaria"
+  },
+  {
+    "char3Code": "BHR",
+    "char2Code": "BH",
+    "numericCode": "048",
+    "name": "BAHRAIN",
+    "shortName": "Bahrain",
+    "fullName": "Kingdom of Bahrain"
+  },
+  {
+    "char3Code": "BHS",
+    "char2Code": "BS",
+    "numericCode": "044",
+    "name": "BAHAMAS, THE",
+    "shortName": "Bahamas, The",
+    "fullName": "Commonwealth of The Bahamas"
+  },
+  {
+    "char3Code": "BIH",
+    "char2Code": "BA",
+    "numericCode": "070",
+    "name": "BOSNIA AND HERZEGOVINA",
+    "shortName": "Bosnia and Herzegovina",
+    "fullName": "Bosnia and Herzegovina"
+  },
+  {
+    "char3Code": "BLM",
+    "char2Code": "BL",
+    "numericCode": "652",
+    "name": "SAINT BARTHELEMY",
+    "shortName": "Saint Barthelemy",
+    "fullName": "Saint Barthelemy"
+  },
+  {
+    "char3Code": "BLR",
+    "char2Code": "BY",
+    "numericCode": "112",
+    "name": "BELARUS",
+    "shortName": "Belarus",
+    "fullName": "Republic of Belarus"
+  },
+  {
+    "char3Code": "BLZ",
+    "char2Code": "BZ",
+    "numericCode": "084",
+    "name": "BELIZE",
+    "shortName": "Belize",
+    "fullName": "Belize"
+  },
+  {
+    "char3Code": "BMU",
+    "char2Code": "BM",
+    "numericCode": "060",
+    "name": "BERMUDA",
+    "shortName": "Bermuda",
+    "fullName": "Bermuda"
+  },
+  {
+    "char3Code": "BOL",
+    "char2Code": "BO",
+    "numericCode": "068",
+    "name": "BOLIVIA",
+    "shortName": "Bolivia",
+    "fullName": "Plurinational State of Bolivia"
+  },
+  {
+    "char3Code": "BRA",
+    "char2Code": "BR",
+    "numericCode": "076",
+    "name": "BRAZIL",
+    "shortName": "Brazil",
+    "fullName": "Federative Republic of Brazil"
+  },
+  {
+    "char3Code": "BRB",
+    "char2Code": "BB",
+    "numericCode": "052",
+    "name": "BARBADOS",
+    "shortName": "Barbados",
+    "fullName": "Barbados"
+  },
+  {
+    "char3Code": "BRN",
+    "char2Code": "BN",
+    "numericCode": "096",
+    "name": "BRUNEI",
+    "shortName": "Brunei",
+    "fullName": "Brunei Darussalam"
+  },
+  {
+    "char3Code": "BTN",
+    "char2Code": "BT",
+    "numericCode": "064",
+    "name": "BHUTAN",
+    "shortName": "Bhutan",
+    "fullName": "Kingdom of Bhutan"
+  },
+  {
+    "char3Code": "BVT",
+    "char2Code": "BV",
+    "numericCode": "074",
+    "name": "BOUVET ISLAND",
+    "shortName": "Bouvet Island",
+    "fullName": "Bouvet Island"
+  },
+  {
+    "char3Code": "BWA",
+    "char2Code": "BW",
+    "numericCode": "072",
+    "name": "BOTSWANA",
+    "shortName": "Botswana",
+    "fullName": "Republic of Botswana"
+  },
+  {
+    "char3Code": "CAF",
+    "char2Code": "CF",
+    "numericCode": "140",
+    "name": "CENTRAL AFRICAN REPUBLIC",
+    "shortName": "Central African Republic",
+    "fullName": "Central African Republic"
+  },
+  {
+    "char3Code": "CAN",
+    "char2Code": "CA",
+    "numericCode": "124",
+    "name": "CANADA",
+    "shortName": "Canada",
+    "fullName": "Canada"
+  },
+  {
+    "char3Code": "CCK",
+    "char2Code": "CC",
+    "numericCode": "166",
+    "name": "COCOS (KEELING) ISLANDS",
+    "shortName": "Cocos (Keeling) Islands",
+    "fullName": "Territory of Cocos (Keeling) Islands"
+  },
+  {
+    "char3Code": "CHE",
+    "char2Code": "CH",
+    "numericCode": "756",
+    "name": "SWITZERLAND",
+    "shortName": "Switzerland",
+    "fullName": "Swiss Confederation"
+  },
+  {
+    "char3Code": "CHL",
+    "char2Code": "CL",
+    "numericCode": "152",
+    "name": "CHILE",
+    "shortName": "Chile",
+    "fullName": "Republic of Chile"
+  },
+  {
+    "char3Code": "CHN",
+    "char2Code": "CN",
+    "numericCode": "156",
+    "name": "CHINA",
+    "shortName": "China",
+    "fullName": "People’s Republic of China"
+  },
+  {
+    "char3Code": "CIV",
+    "char2Code": "CI",
+    "numericCode": "384",
+    "name": "CÔTE D’IVOIRE",
+    "shortName": "Côte d’Ivoire",
+    "fullName": "Republic of Côte d’Ivoire"
+  },
+  {
+    "char3Code": "CMR",
+    "char2Code": "CM",
+    "numericCode": "120",
+    "name": "CAMEROON",
+    "shortName": "Cameroon",
+    "fullName": "Republic of Cameroon"
+  },
+  {
+    "char3Code": "COD",
+    "char2Code": "CD",
+    "numericCode": "180",
+    "name": "CONGO (KINSHASA)",
+    "shortName": "Congo (Kinshasa)",
+    "fullName": "Democratic Republic of the Congo"
+  },
+  {
+    "char3Code": "COG",
+    "char2Code": "CG",
+    "numericCode": "178",
+    "name": "CONGO (BRAZZAVILLE)",
+    "shortName": "Congo (Brazzaville)",
+    "fullName": "Republic of the Congo"
+  },
+  {
+    "char3Code": "COK",
+    "char2Code": "CK",
+    "numericCode": "184",
+    "name": "COOK ISLANDS",
+    "shortName": "Cook Islands",
+    "fullName": "Cook Islands"
+  },
+  {
+    "char3Code": "COL",
+    "char2Code": "CO",
+    "numericCode": "170",
+    "name": "COLOMBIA",
+    "shortName": "Colombia",
+    "fullName": "Republic of Colombia"
+  },
+  {
+    "char3Code": "COM",
+    "char2Code": "KM",
+    "numericCode": "174",
+    "name": "COMOROS",
+    "shortName": "Comoros",
+    "fullName": "Union of the Comoros"
+  },
+  {
+    "char3Code": "CPT",
+    "char2Code": "CP",
+    "numericCode": "905",
+    "name": "CLIPPERTON ISLAND",
+    "shortName": "Clipperton Island",
+    "fullName": "Clipperton Island"
+  },
+  {
+    "char3Code": "CPV",
+    "char2Code": "CV",
+    "numericCode": "132",
+    "name": "CABO VERDE",
+    "shortName": "Cabo Verde",
+    "fullName": "Republic of Cabo Verde"
+  },
+  {
+    "char3Code": "CRI",
+    "char2Code": "CR",
+    "numericCode": "188",
+    "name": "COSTA RICA",
+    "shortName": "Costa Rica",
+    "fullName": "Republic of Costa Rica"
+  },
+  {
+    "char3Code": "CUB",
+    "char2Code": "CU",
+    "numericCode": "192",
+    "name": "CUBA",
+    "shortName": "Cuba",
+    "fullName": "Republic of Cuba"
+  },
+  {
+    "char3Code": "CUW",
+    "char2Code": "CW",
+    "numericCode": "531",
+    "name": "CURAÇAO",
+    "shortName": "Curaçao",
+    "fullName": "Curaçao"
+  },
+  {
+    "char3Code": "CXR",
+    "char2Code": "CX",
+    "numericCode": "162",
+    "name": "CHRISTMAS ISLAND",
+    "shortName": "Christmas Island",
+    "fullName": "Territory of Christmas Island"
+  },
+  {
+    "char3Code": "CYM",
+    "char2Code": "KY",
+    "numericCode": "136",
+    "name": "CAYMAN ISLANDS",
+    "shortName": "Cayman Islands",
+    "fullName": "Cayman Islands"
+  },
+  {
+    "char3Code": "CYP",
+    "char2Code": "CY",
+    "numericCode": "196",
+    "name": "CYPRUS",
+    "shortName": "Cyprus",
+    "fullName": "Republic of Cyprus"
+  },
+  {
+    "char3Code": "CZE",
+    "char2Code": "CZ",
+    "numericCode": "203",
+    "name": "CZECH REPUBLIC",
+    "shortName": "Czech Republic",
+    "fullName": "Czech Republic"
+  },
+  {
+    "char3Code": "DEU",
+    "char2Code": "DE",
+    "numericCode": "276",
+    "name": "GERMANY",
+    "shortName": "Germany",
+    "fullName": "Federal Republic of Germany"
+  },
+  {
+    "char3Code": "DGA",
+    "char2Code": "DG",
+    "numericCode": "908",
+    "name": "DIEGO GARCIA",
+    "shortName": "Diego Garcia",
+    "fullName": "Diego Garcia"
+  },
+  {
+    "char3Code": "DJI",
+    "char2Code": "DJ",
+    "numericCode": "262",
+    "name": "DJIBOUTI",
+    "shortName": "Djibouti",
+    "fullName": "Republic of Djibouti"
+  },
+  {
+    "char3Code": "DMA",
+    "char2Code": "DM",
+    "numericCode": "212",
+    "name": "DOMINICA",
+    "shortName": "Dominica",
+    "fullName": "Commonwealth of Dominica"
+  },
+  {
+    "char3Code": "DNK",
+    "char2Code": "DK",
+    "numericCode": "208",
+    "name": "DENMARK",
+    "shortName": "Denmark",
+    "fullName": "Kingdom of Denmark"
+  },
+  {
+    "char3Code": "DOM",
+    "char2Code": "DO",
+    "numericCode": "214",
+    "name": "DOMINICAN REPUBLIC",
+    "shortName": "Dominican Republic",
+    "fullName": "Dominican Republic"
+  },
+  {
+    "char3Code": "DZA",
+    "char2Code": "DZ",
+    "numericCode": "012",
+    "name": "ALGERIA",
+    "shortName": "Algeria",
+    "fullName": "People’s Democratic Republic of Algeria"
+  },
+  {
+    "char3Code": "ECU",
+    "char2Code": "EC",
+    "numericCode": "218",
+    "name": "ECUADOR",
+    "shortName": "Ecuador",
+    "fullName": "Republic of Ecuador"
+  },
+  {
+    "char3Code": "EGY",
+    "char2Code": "EG",
+    "numericCode": "818",
+    "name": "EGYPT",
+    "shortName": "Egypt",
+    "fullName": "Arab Republic of Egypt"
+  },
+  {
+    "char3Code": "ERI",
+    "char2Code": "ER",
+    "numericCode": "232",
+    "name": "ERITREA",
+    "shortName": "Eritrea",
+    "fullName": "State of Eritrea"
+  },
+  {
+    "char3Code": "ESH",
+    "char2Code": "EH",
+    "numericCode": "732",
+    "name": "WESTERN SAHARA",
+    "shortName": "Western Sahara",
+    "fullName": "Western Sahara"
+  },
+  {
+    "char3Code": "ESP",
+    "char2Code": "ES",
+    "numericCode": "724",
+    "name": "SPAIN",
+    "shortName": "Spain",
+    "fullName": "Kingdom of Spain"
+  },
+  {
+    "char3Code": "EST",
+    "char2Code": "EE",
+    "numericCode": "233",
+    "name": "ESTONIA",
+    "shortName": "Estonia",
+    "fullName": "Republic of Estonia"
+  },
+  {
+    "char3Code": "ETH",
+    "char2Code": "ET",
+    "numericCode": "231",
+    "name": "ETHIOPIA",
+    "shortName": "Ethiopia",
+    "fullName": "Federal Democratic Republic of Ethiopia"
+  },
+  {
+    "char3Code": "FIN",
+    "char2Code": "FI",
+    "numericCode": "246",
+    "name": "FINLAND",
+    "shortName": "Finland",
+    "fullName": "Republic of Finland"
+  },
+  {
+    "char3Code": "FJI",
+    "char2Code": "FJ",
+    "numericCode": "242",
+    "name": "FIJI",
+    "shortName": "Fiji",
+    "fullName": "Republic of Fiji"
+  },
+  {
+    "char3Code": "FLK",
+    "char2Code": "FK",
+    "numericCode": "238",
+    "name": "FALKLAND ISLANDS (ISLAS MALVINAS)",
+    "shortName": "Falkland Islands (Islas Malvinas)",
+    "fullName": "Falkland Islands (Islas Malvinas)"
+  },
+  {
+    "char3Code": "FRA",
+    "char2Code": "FR",
+    "numericCode": "250",
+    "name": "FRANCE",
+    "shortName": "France",
+    "fullName": "French Republic"
+  },
+  {
+    "char3Code": "FRO",
+    "char2Code": "FO",
+    "numericCode": "234",
+    "name": "FAROE ISLANDS",
+    "shortName": "Faroe Islands",
+    "fullName": "Faroe Islands"
+  },
+  {
+    "char3Code": "FSM",
+    "char2Code": "FM",
+    "numericCode": "583",
+    "name": "MICRONESIA, FEDERATED STATES OF",
+    "shortName": "Micronesia, Federated States of",
+    "fullName": "Federated States of Micronesia"
+  },
+  {
+    "char3Code": "GAB",
+    "char2Code": "GA",
+    "numericCode": "266",
+    "name": "GABON",
+    "shortName": "Gabon",
+    "fullName": "Gabonese Republic"
+  },
+  {
+    "char3Code": "GBR",
+    "char2Code": "GB",
+    "numericCode": "826",
+    "name": "UNITED KINGDOM",
+    "shortName": "United Kingdom",
+    "fullName": "United Kingdom of Great Britain and Northern Ireland"
+  },
+  {
+    "char3Code": "GEO",
+    "char2Code": "GE",
+    "numericCode": "268",
+    "name": "GEORGIA",
+    "shortName": "Georgia",
+    "fullName": "Georgia"
+  },
+  {
+    "char3Code": "GGY",
+    "char2Code": "GG",
+    "numericCode": "831",
+    "name": "GUERNSEY",
+    "shortName": "Guernsey",
+    "fullName": "Bailiwick of Guernsey"
+  },
+  {
+    "char3Code": "GHA",
+    "char2Code": "GH",
+    "numericCode": "288",
+    "name": "GHANA",
+    "shortName": "Ghana",
+    "fullName": "Republic of Ghana"
+  },
+  {
+    "char3Code": "GIB",
+    "char2Code": "GI",
+    "numericCode": "292",
+    "name": "GIBRALTAR",
+    "shortName": "Gibraltar",
+    "fullName": "Gibraltar"
+  },
+  {
+    "char3Code": "GIN",
+    "char2Code": "GN",
+    "numericCode": "324",
+    "name": "GUINEA",
+    "shortName": "Guinea",
+    "fullName": "Republic of Guinea"
+  },
+  {
+    "char3Code": "GLP",
+    "char2Code": "GP",
+    "numericCode": "312",
+    "name": "GUADELOUPE",
+    "shortName": "Guadeloupe",
+    "fullName": "Department of Guadeloupe"
+  },
+  {
+    "char3Code": "GMB",
+    "char2Code": "GM",
+    "numericCode": "270",
+    "name": "GAMBIA, THE",
+    "shortName": "Gambia, The",
+    "fullName": "Republic of The Gambia"
+  },
+  {
+    "char3Code": "GNB",
+    "char2Code": "GW",
+    "numericCode": "624",
+    "name": "GUINEA-BISSAU",
+    "shortName": "Guinea-Bissau",
+    "fullName": "Republic of Guinea-Bissau"
+  },
+  {
+    "char3Code": "GNQ",
+    "char2Code": "GQ",
+    "numericCode": "226",
+    "name": "EQUATORIAL GUINEA",
+    "shortName": "Equatorial Guinea",
+    "fullName": "Republic of Equatorial Guinea"
+  },
+  {
+    "char3Code": "GRC",
+    "char2Code": "GR",
+    "numericCode": "300",
+    "name": "GREECE",
+    "shortName": "Greece",
+    "fullName": "Hellenic Republic"
+  },
+  {
+    "char3Code": "GRD",
+    "char2Code": "GD",
+    "numericCode": "308",
+    "name": "GRENADA",
+    "shortName": "Grenada",
+    "fullName": "Grenada"
+  },
+  {
+    "char3Code": "GRL",
+    "char2Code": "GL",
+    "numericCode": "304",
+    "name": "GREENLAND",
+    "shortName": "Greenland",
+    "fullName": "Greenland"
+  },
+  {
+    "char3Code": "GTM",
+    "char2Code": "GT",
+    "numericCode": "320",
+    "name": "GUATEMALA",
+    "shortName": "Guatemala",
+    "fullName": "Republic of Guatemala"
+  },
+  {
+    "char3Code": "GUF",
+    "char2Code": "GF",
+    "numericCode": "254",
+    "name": "FRENCH GUIANA",
+    "shortName": "French Guiana",
+    "fullName": "Department of Guiana"
+  },
+  {
+    "char3Code": "GUM",
+    "char2Code": "GU",
+    "numericCode": "316",
+    "name": "GUAM",
+    "shortName": "Guam",
+    "fullName": "Territory of Guam"
+  },
+  {
+    "char3Code": "GUY",
+    "char2Code": "GY",
+    "numericCode": "328",
+    "name": "GUYANA",
+    "shortName": "Guyana",
+    "fullName": "Co-operative Republic of Guyana"
+  },
+  {
+    "char3Code": "HKG",
+    "char2Code": "HK",
+    "numericCode": "344",
+    "name": "HONG KONG",
+    "shortName": "Hong Kong",
+    "fullName": "Hong Kong Special Administrative Region"
+  },
+  {
+    "char3Code": "HMD",
+    "char2Code": "HM",
+    "numericCode": "334",
+    "name": "HEARD ISLAND AND MCDONALD ISLANDS",
+    "shortName": "Heard Island and McDonald Islands",
+    "fullName": "Territory of Heard Island and McDonald Islands"
+  },
+  {
+    "char3Code": "HND",
+    "char2Code": "HN",
+    "numericCode": "340",
+    "name": "HONDURAS",
+    "shortName": "Honduras",
+    "fullName": "Republic of Honduras"
+  },
+  {
+    "char3Code": "HRV",
+    "char2Code": "HR",
+    "numericCode": "191",
+    "name": "CROATIA",
+    "shortName": "Croatia",
+    "fullName": "Republic of Croatia"
+  },
+  {
+    "char3Code": "HTI",
+    "char2Code": "HT",
+    "numericCode": "332",
+    "name": "HAITI",
+    "shortName": "Haiti",
+    "fullName": "Republic of Haiti"
+  },
+  {
+    "char3Code": "HUN",
+    "char2Code": "HU",
+    "numericCode": "348",
+    "name": "HUNGARY",
+    "shortName": "Hungary",
+    "fullName": "Hungary"
+  },
+  {
+    "char3Code": "IDN",
+    "char2Code": "ID",
+    "numericCode": "360",
+    "name": "INDONESIA",
+    "shortName": "Indonesia",
+    "fullName": "Republic of Indonesia"
+  },
+  {
+    "char3Code": "IMN",
+    "char2Code": "IM",
+    "numericCode": "833",
+    "name": "ISLE OF MAN",
+    "shortName": "Isle of Man",
+    "fullName": "Isle of Man"
+  },
+  {
+    "char3Code": "IND",
+    "char2Code": "IN",
+    "numericCode": "356",
+    "name": "INDIA",
+    "shortName": "India",
+    "fullName": "Republic of India"
+  },
+  {
+    "char3Code": "IOT",
+    "char2Code": "IO",
+    "numericCode": "086",
+    "name": "BRITISH INDIAN OCEAN TERRITORY",
+    "shortName": "British Indian Ocean Territory",
+    "fullName": "British Indian Ocean Territory"
+  },
+  {
+    "char3Code": "IRL",
+    "char2Code": "IE",
+    "numericCode": "372",
+    "name": "IRELAND",
+    "shortName": "Ireland",
+    "fullName": "Ireland"
+  },
+  {
+    "char3Code": "IRN",
+    "char2Code": "IR",
+    "numericCode": "364",
+    "name": "IRAN",
+    "shortName": "Iran",
+    "fullName": "Islamic Republic of Iran"
+  },
+  {
+    "char3Code": "IRQ",
+    "char2Code": "IQ",
+    "numericCode": "368",
+    "name": "IRAQ",
+    "shortName": "Iraq",
+    "fullName": "Republic of Iraq"
+  },
+  {
+    "char3Code": "ISL",
+    "char2Code": "IS",
+    "numericCode": "352",
+    "name": "ICELAND",
+    "shortName": "Iceland",
+    "fullName": "Republic of Iceland"
+  },
+  {
+    "char3Code": "ISR",
+    "char2Code": "IL",
+    "numericCode": "376",
+    "name": "ISRAEL",
+    "shortName": "Israel",
+    "fullName": "State of Israel"
+  },
+  {
+    "char3Code": "ITA",
+    "char2Code": "IT",
+    "numericCode": "380",
+    "name": "ITALY",
+    "shortName": "Italy",
+    "fullName": "Italian Republic"
+  },
+  {
+    "char3Code": "JAM",
+    "char2Code": "JM",
+    "numericCode": "388",
+    "name": "JAMAICA",
+    "shortName": "Jamaica",
+    "fullName": "Jamaica"
+  },
+  {
+    "char3Code": "JEY",
+    "char2Code": "JE",
+    "numericCode": "832",
+    "name": "JERSEY",
+    "shortName": "Jersey",
+    "fullName": "Bailiwick of Jersey"
+  },
+  {
+    "char3Code": "JOR",
+    "char2Code": "JO",
+    "numericCode": "400",
+    "name": "JORDAN",
+    "shortName": "Jordan",
+    "fullName": "Hashemite Kingdom of Jordan"
+  },
+  {
+    "char3Code": "JPN",
+    "char2Code": "JP",
+    "numericCode": "392",
+    "name": "JAPAN",
+    "shortName": "Japan",
+    "fullName": "Japan"
+  },
+  {
+    "char3Code": "KAZ",
+    "char2Code": "KZ",
+    "numericCode": "398",
+    "name": "KAZAKHSTAN",
+    "shortName": "Kazakhstan",
+    "fullName": "Republic of Kazakhstan"
+  },
+  {
+    "char3Code": "KEN",
+    "char2Code": "KE",
+    "numericCode": "404",
+    "name": "KENYA",
+    "shortName": "Kenya",
+    "fullName": "Republic of Kenya"
+  },
+  {
+    "char3Code": "KGZ",
+    "char2Code": "KG",
+    "numericCode": "417",
+    "name": "KYRGYZSTAN",
+    "shortName": "Kyrgyzstan",
+    "fullName": "Kyrgyz Republic"
+  },
+  {
+    "char3Code": "KHM",
+    "char2Code": "KH",
+    "numericCode": "116",
+    "name": "CAMBODIA",
+    "shortName": "Cambodia",
+    "fullName": "Kingdom of Cambodia"
+  },
+  {
+    "char3Code": "KIR",
+    "char2Code": "KI",
+    "numericCode": "296",
+    "name": "KIRIBATI",
+    "shortName": "Kiribati",
+    "fullName": "Republic of Kiribati"
+  },
+  {
+    "char3Code": "KNA",
+    "char2Code": "KN",
+    "numericCode": "659",
+    "name": "SAINT KITTS AND NEVIS",
+    "shortName": "Saint Kitts and Nevis",
+    "fullName": "Federation of Saint Kitts and Nevis"
+  },
+  {
+    "char3Code": "KOR",
+    "char2Code": "KR",
+    "numericCode": "410",
+    "name": "KOREA, SOUTH",
+    "shortName": "Korea, South",
+    "fullName": "Republic of Korea"
+  },
+  {
+    "char3Code": "KWT",
+    "char2Code": "KW",
+    "numericCode": "414",
+    "name": "KUWAIT",
+    "shortName": "Kuwait",
+    "fullName": "State of Kuwait"
+  },
+  {
+    "char3Code": "LAO",
+    "char2Code": "LA",
+    "numericCode": "418",
+    "name": "LAOS",
+    "shortName": "Laos",
+    "fullName": "Lao People’s Democratic Republic"
+  },
+  {
+    "char3Code": "LBN",
+    "char2Code": "LB",
+    "numericCode": "422",
+    "name": "LEBANON",
+    "shortName": "Lebanon",
+    "fullName": "Lebanese Republic"
+  },
+  {
+    "char3Code": "LBR",
+    "char2Code": "LR",
+    "numericCode": "430",
+    "name": "LIBERIA",
+    "shortName": "Liberia",
+    "fullName": "Republic of Liberia"
+  },
+  {
+    "char3Code": "LBY",
+    "char2Code": "LY",
+    "numericCode": "434",
+    "name": "LIBYA",
+    "shortName": "Libya",
+    "fullName": "Libya"
+  },
+  {
+    "char3Code": "LCA",
+    "char2Code": "LC",
+    "numericCode": "662",
+    "name": "SAINT LUCIA",
+    "shortName": "Saint Lucia",
+    "fullName": "Saint Lucia"
+  },
+  {
+    "char3Code": "LIE",
+    "char2Code": "LI",
+    "numericCode": "438",
+    "name": "LIECHTENSTEIN",
+    "shortName": "Liechtenstein",
+    "fullName": "Principality of Liechtenstein"
+  },
+  {
+    "char3Code": "LKA",
+    "char2Code": "LK",
+    "numericCode": "144",
+    "name": "SRI LANKA",
+    "shortName": "Sri Lanka",
+    "fullName": "Democratic Socialist Republic of Sri Lanka"
+  },
+  {
+    "char3Code": "LSO",
+    "char2Code": "LS",
+    "numericCode": "426",
+    "name": "LESOTHO",
+    "shortName": "Lesotho",
+    "fullName": "Kingdom of Lesotho"
+  },
+  {
+    "char3Code": "LTU",
+    "char2Code": "LT",
+    "numericCode": "440",
+    "name": "LITHUANIA",
+    "shortName": "Lithuania",
+    "fullName": "Republic of Lithuania"
+  },
+  {
+    "char3Code": "LUX",
+    "char2Code": "LU",
+    "numericCode": "442",
+    "name": "LUXEMBOURG",
+    "shortName": "Luxembourg",
+    "fullName": "Grand Duchy of Luxembourg"
+  },
+  {
+    "char3Code": "LVA",
+    "char2Code": "LV",
+    "numericCode": "428",
+    "name": "LATVIA",
+    "shortName": "Latvia",
+    "fullName": "Republic of Latvia"
+  },
+  {
+    "char3Code": "MAC",
+    "char2Code": "MO",
+    "numericCode": "446",
+    "name": "MACAU",
+    "shortName": "Macau",
+    "fullName": "Macau Special Administrative Region"
+  },
+  {
+    "char3Code": "MAF",
+    "char2Code": "MF",
+    "numericCode": "663",
+    "name": "SAINT MARTIN",
+    "shortName": "Saint Martin",
+    "fullName": "Saint Martin"
+  },
+  {
+    "char3Code": "MAR",
+    "char2Code": "MA",
+    "numericCode": "504",
+    "name": "MOROCCO",
+    "shortName": "Morocco",
+    "fullName": "Kingdom of Morocco"
+  },
+  {
+    "char3Code": "MCO",
+    "char2Code": "MC",
+    "numericCode": "492",
+    "name": "MONACO",
+    "shortName": "Monaco",
+    "fullName": "Principality of Monaco"
+  },
+  {
+    "char3Code": "MDA",
+    "char2Code": "MD",
+    "numericCode": "498",
+    "name": "MOLDOVA",
+    "shortName": "Moldova",
+    "fullName": "Republic of Moldova"
+  },
+  {
+    "char3Code": "MDG",
+    "char2Code": "MG",
+    "numericCode": "450",
+    "name": "MADAGASCAR",
+    "shortName": "Madagascar",
+    "fullName": "Republic of Madagascar"
+  },
+  {
+    "char3Code": "MDV",
+    "char2Code": "MV",
+    "numericCode": "462",
+    "name": "MALDIVES",
+    "shortName": "Maldives",
+    "fullName": "Republic of Maldives"
+  },
+  {
+    "char3Code": "MEX",
+    "char2Code": "MX",
+    "numericCode": "484",
+    "name": "MEXICO",
+    "shortName": "Mexico",
+    "fullName": "United Mexican States"
+  },
+  {
+    "char3Code": "MHL",
+    "char2Code": "MH",
+    "numericCode": "584",
+    "name": "MARSHALL ISLANDS",
+    "shortName": "Marshall Islands",
+    "fullName": "Republic of the Marshall Islands"
+  },
+  {
+    "char3Code": "MKD",
+    "char2Code": "MK",
+    "numericCode": "807",
+    "name": "MACEDONIA",
+    "shortName": "Macedonia",
+    "fullName": "Republic of Macedonia"
+  },
+  {
+    "char3Code": "MLI",
+    "char2Code": "ML",
+    "numericCode": "466",
+    "name": "MALI",
+    "shortName": "Mali",
+    "fullName": "Republic of Mali"
+  },
+  {
+    "char3Code": "MLT",
+    "char2Code": "MT",
+    "numericCode": "470",
+    "name": "MALTA",
+    "shortName": "Malta",
+    "fullName": "Republic of Malta"
+  },
+  {
+    "char3Code": "MMR",
+    "char2Code": "MM",
+    "numericCode": "104",
+    "name": "BURMA",
+    "shortName": "Burma",
+    "fullName": "Union of Burma"
+  },
+  {
+    "char3Code": "MNE",
+    "char2Code": "ME",
+    "numericCode": "499",
+    "name": "MONTENEGRO",
+    "shortName": "Montenegro",
+    "fullName": "Montenegro"
+  },
+  {
+    "char3Code": "MNG",
+    "char2Code": "MN",
+    "numericCode": "496",
+    "name": "MONGOLIA",
+    "shortName": "Mongolia",
+    "fullName": "Mongolia"
+  },
+  {
+    "char3Code": "MNP",
+    "char2Code": "MP",
+    "numericCode": "580",
+    "name": "NORTHERN MARIANA ISLANDS",
+    "shortName": "Northern Mariana Islands",
+    "fullName": "Commonwealth of the Northern Mariana Islands"
+  },
+  {
+    "char3Code": "MOZ",
+    "char2Code": "MZ",
+    "numericCode": "508",
+    "name": "MOZAMBIQUE",
+    "shortName": "Mozambique",
+    "fullName": "Republic of Mozambique"
+  },
+  {
+    "char3Code": "MRT",
+    "char2Code": "MR",
+    "numericCode": "478",
+    "name": "MAURITANIA",
+    "shortName": "Mauritania",
+    "fullName": "Islamic Republic of Mauritania"
+  },
+  {
+    "char3Code": "MSR",
+    "char2Code": "MS",
+    "numericCode": "500",
+    "name": "MONTSERRAT",
+    "shortName": "Montserrat",
+    "fullName": "Montserrat"
+  },
+  {
+    "char3Code": "MTQ",
+    "char2Code": "MQ",
+    "numericCode": "474",
+    "name": "MARTINIQUE",
+    "shortName": "Martinique",
+    "fullName": "Department of Martinique"
+  },
+  {
+    "char3Code": "MUS",
+    "char2Code": "MU",
+    "numericCode": "480",
+    "name": "MAURITIUS",
+    "shortName": "Mauritius",
+    "fullName": "Republic of Mauritius"
+  },
+  {
+    "char3Code": "MWI",
+    "char2Code": "MW",
+    "numericCode": "454",
+    "name": "MALAWI",
+    "shortName": "Malawi",
+    "fullName": "Republic of Malawi"
+  },
+  {
+    "char3Code": "MYS",
+    "char2Code": "MY",
+    "numericCode": "458",
+    "name": "MALAYSIA",
+    "shortName": "Malaysia",
+    "fullName": "Malaysia"
+  },
+  {
+    "char3Code": "MYT",
+    "char2Code": "YT",
+    "numericCode": "175",
+    "name": "MAYOTTE",
+    "shortName": "Mayotte",
+    "fullName": "Department of Mayotte"
+  },
+  {
+    "char3Code": "NAM",
+    "char2Code": "NA",
+    "numericCode": "516",
+    "name": "NAMIBIA",
+    "shortName": "Namibia",
+    "fullName": "Republic of Namibia"
+  },
+  {
+    "char3Code": "NCL",
+    "char2Code": "NC",
+    "numericCode": "540",
+    "name": "NEW CALEDONIA",
+    "shortName": "New Caledonia",
+    "fullName": "New Caledonia"
+  },
+  {
+    "char3Code": "NER",
+    "char2Code": "NE",
+    "numericCode": "562",
+    "name": "NIGER",
+    "shortName": "Niger",
+    "fullName": "Republic of Niger"
+  },
+  {
+    "char3Code": "NFK",
+    "char2Code": "NF",
+    "numericCode": "574",
+    "name": "NORFOLK ISLAND",
+    "shortName": "Norfolk Island",
+    "fullName": "Territory of Norfolk Island"
+  },
+  {
+    "char3Code": "NGA",
+    "char2Code": "NG",
+    "numericCode": "566",
+    "name": "NIGERIA",
+    "shortName": "Nigeria",
+    "fullName": "Federal Republic of Nigeria"
+  },
+  {
+    "char3Code": "NIC",
+    "char2Code": "NI",
+    "numericCode": "558",
+    "name": "NICARAGUA",
+    "shortName": "Nicaragua",
+    "fullName": "Republic of Nicaragua"
+  },
+  {
+    "char3Code": "NIU",
+    "char2Code": "NU",
+    "numericCode": "570",
+    "name": "NIUE",
+    "shortName": "Niue",
+    "fullName": "Niue"
+  },
+  {
+    "char3Code": "NLD",
+    "char2Code": "NL",
+    "numericCode": "528",
+    "name": "NETHERLANDS",
+    "shortName": "Netherlands",
+    "fullName": "Kingdom of the Netherlands"
+  },
+  {
+    "char3Code": "NOR",
+    "char2Code": "NO",
+    "numericCode": "578",
+    "name": "NORWAY",
+    "shortName": "Norway",
+    "fullName": "Kingdom of Norway"
+  },
+  {
+    "char3Code": "NPL",
+    "char2Code": "NP",
+    "numericCode": "524",
+    "name": "NEPAL",
+    "shortName": "Nepal",
+    "fullName": "Federal Democratic Republic of Nepal"
+  },
+  {
+    "char3Code": "NRU",
+    "char2Code": "NR",
+    "numericCode": "520",
+    "name": "NAURU",
+    "shortName": "Nauru",
+    "fullName": "Republic of Nauru"
+  },
+  {
+    "char3Code": "NZL",
+    "char2Code": "NZ",
+    "numericCode": "554",
+    "name": "NEW ZEALAND",
+    "shortName": "New Zealand",
+    "fullName": "New Zealand"
+  },
+  {
+    "char3Code": "OMN",
+    "char2Code": "OM",
+    "numericCode": "512",
+    "name": "OMAN",
+    "shortName": "Oman",
+    "fullName": "Sultanate of Oman"
+  },
+  {
+    "char3Code": "PAK",
+    "char2Code": "PK",
+    "numericCode": "586",
+    "name": "PAKISTAN",
+    "shortName": "Pakistan",
+    "fullName": "Islamic Republic of Pakistan"
+  },
+  {
+    "char3Code": "PAN",
+    "char2Code": "PA",
+    "numericCode": "591",
+    "name": "PANAMA",
+    "shortName": "Panama",
+    "fullName": "Republic of Panama"
+  },
+  {
+    "char3Code": "PCN",
+    "char2Code": "PN",
+    "numericCode": "612",
+    "name": "PITCAIRN ISLANDS",
+    "shortName": "Pitcairn Islands",
+    "fullName": "Pitcairn, Henderson, Ducie, and Oeno Islands"
+  },
+  {
+    "char3Code": "PER",
+    "char2Code": "PE",
+    "numericCode": "604",
+    "name": "PERU",
+    "shortName": "Peru",
+    "fullName": "Republic of Peru"
+  },
+  {
+    "char3Code": "PHL",
+    "char2Code": "PH",
+    "numericCode": "608",
+    "name": "PHILIPPINES",
+    "shortName": "Philippines",
+    "fullName": "Republic of the Philippines"
+  },
+  {
+    "char3Code": "PLW",
+    "char2Code": "PW",
+    "numericCode": "585",
+    "name": "PALAU",
+    "shortName": "Palau",
+    "fullName": "Republic of Palau"
+  },
+  {
+    "char3Code": "PNG",
+    "char2Code": "PG",
+    "numericCode": "598",
+    "name": "PAPUA NEW GUINEA",
+    "shortName": "Papua New Guinea",
+    "fullName": "Independent State of Papua New Guinea"
+  },
+  {
+    "char3Code": "POL",
+    "char2Code": "PL",
+    "numericCode": "616",
+    "name": "POLAND",
+    "shortName": "Poland",
+    "fullName": "Republic of Poland"
+  },
+  {
+    "char3Code": "PRI",
+    "char2Code": "PR",
+    "numericCode": "630",
+    "name": "PUERTO RICO",
+    "shortName": "Puerto Rico",
+    "fullName": "Commonwealth of Puerto Rico"
+  },
+  {
+    "char3Code": "PRK",
+    "char2Code": "KP",
+    "numericCode": "408",
+    "name": "KOREA, NORTH",
+    "shortName": "Korea, North",
+    "fullName": "Democratic People’s Republic of Korea"
+  },
+  {
+    "char3Code": "PRT",
+    "char2Code": "PT",
+    "numericCode": "620",
+    "name": "PORTUGAL",
+    "shortName": "Portugal",
+    "fullName": "Portuguese Republic"
+  },
+  {
+    "char3Code": "PRY",
+    "char2Code": "PY",
+    "numericCode": "600",
+    "name": "PARAGUAY",
+    "shortName": "Paraguay",
+    "fullName": "Republic of Paraguay"
+  },
+  {
+    "char3Code": "PYF",
+    "char2Code": "PF",
+    "numericCode": "258",
+    "name": "FRENCH POLYNESIA",
+    "shortName": "French Polynesia",
+    "fullName": "French Polynesia"
+  },
+  {
+    "char3Code": "QAT",
+    "char2Code": "QA",
+    "numericCode": "634",
+    "name": "QATAR",
+    "shortName": "Qatar",
+    "fullName": "State of Qatar"
+  },
+  {
+    "char3Code": "REU",
+    "char2Code": "RE",
+    "numericCode": "638",
+    "name": "REUNION",
+    "shortName": "Reunion",
+    "fullName": "Department of Reunion"
+  },
+  {
+    "char3Code": "ROU",
+    "char2Code": "RO",
+    "numericCode": "642",
+    "name": "ROMANIA",
+    "shortName": "Romania",
+    "fullName": "Romania"
+  },
+  {
+    "char3Code": "RUS",
+    "char2Code": "RU",
+    "numericCode": "643",
+    "name": "RUSSIA",
+    "shortName": "Russia",
+    "fullName": "Russian Federation"
+  },
+  {
+    "char3Code": "RWA",
+    "char2Code": "RW",
+    "numericCode": "646",
+    "name": "RWANDA",
+    "shortName": "Rwanda",
+    "fullName": "Republic of Rwanda"
+  },
+  {
+    "char3Code": "SAU",
+    "char2Code": "SA",
+    "numericCode": "682",
+    "name": "SAUDI ARABIA",
+    "shortName": "Saudi Arabia",
+    "fullName": "Kingdom of Saudi Arabia"
+  },
+  {
+    "char3Code": "SDN",
+    "char2Code": "SD",
+    "numericCode": "729",
+    "name": "SUDAN",
+    "shortName": "Sudan",
+    "fullName": "Republic of the Sudan"
+  },
+  {
+    "char3Code": "SEN",
+    "char2Code": "SN",
+    "numericCode": "686",
+    "name": "SENEGAL",
+    "shortName": "Senegal",
+    "fullName": "Republic of Senegal"
+  },
+  {
+    "char3Code": "SGP",
+    "char2Code": "SG",
+    "numericCode": "702",
+    "name": "SINGAPORE",
+    "shortName": "Singapore",
+    "fullName": "Republic of Singapore"
+  },
+  {
+    "char3Code": "SGS",
+    "char2Code": "GS",
+    "numericCode": "239",
+    "name": "SOUTH GEORGIA AND SOUTH SANDWICH ISLANDS",
+    "shortName": "South Georgia and South Sandwich Islands",
+    "fullName": "South Georgia and the South Sandwich Islands"
+  },
+  {
+    "char3Code": "SHN",
+    "char2Code": "SH",
+    "numericCode": "654",
+    "name": "SAINT HELENA, ASCENSION, AND TRISTAN DA CUNHA",
+    "shortName": "Saint Helena, Ascension, and Tristan da Cunha",
+    "fullName": "Saint Helena, Ascension, and Tristan da Cunha"
+  },
+  {
+    "char3Code": "SLB",
+    "char2Code": "SB",
+    "numericCode": "090",
+    "name": "SOLOMON ISLANDS",
+    "shortName": "Solomon Islands",
+    "fullName": "Solomon Islands"
+  },
+  {
+    "char3Code": "SLE",
+    "char2Code": "SL",
+    "numericCode": "694",
+    "name": "SIERRA LEONE",
+    "shortName": "Sierra Leone",
+    "fullName": "Republic of Sierra Leone"
+  },
+  {
+    "char3Code": "SLV",
+    "char2Code": "SV",
+    "numericCode": "222",
+    "name": "EL SALVADOR",
+    "shortName": "El Salvador",
+    "fullName": "Republic of El Salvador"
+  },
+  {
+    "char3Code": "SMR",
+    "char2Code": "SM",
+    "numericCode": "674",
+    "name": "SAN MARINO",
+    "shortName": "San Marino",
+    "fullName": "Republic of San Marino"
+  },
+  {
+    "char3Code": "SOM",
+    "char2Code": "SO",
+    "numericCode": "706",
+    "name": "SOMALIA",
+    "shortName": "Somalia",
+    "fullName": "Federal Republic of Somalia"
+  },
+  {
+    "char3Code": "SPM",
+    "char2Code": "PM",
+    "numericCode": "666",
+    "name": "SAINT PIERRE AND MIQUELON",
+    "shortName": "Saint Pierre and Miquelon",
+    "fullName": "Territorial Collectivity of Saint Pierre and Miquelon"
+  },
+  {
+    "char3Code": "SRB",
+    "char2Code": "RS",
+    "numericCode": "688",
+    "name": "SERBIA",
+    "shortName": "Serbia",
+    "fullName": "Republic of Serbia"
+  },
+  {
+    "char3Code": "SSD",
+    "char2Code": "SS",
+    "numericCode": "728",
+    "name": "SOUTH SUDAN",
+    "shortName": "South Sudan",
+    "fullName": "Republic of South Sudan"
+  },
+  {
+    "char3Code": "STP",
+    "char2Code": "ST",
+    "numericCode": "678",
+    "name": "SAO TOME AND PRINCIPE",
+    "shortName": "Sao Tome and Principe",
+    "fullName": "Democratic Republic of Sao Tome and Principe"
+  },
+  {
+    "char3Code": "SUR",
+    "char2Code": "SR",
+    "numericCode": "740",
+    "name": "SURINAME",
+    "shortName": "Suriname",
+    "fullName": "Republic of Suriname"
+  },
+  {
+    "char3Code": "SVK",
+    "char2Code": "SK",
+    "numericCode": "703",
+    "name": "SLOVAKIA",
+    "shortName": "Slovakia",
+    "fullName": "Slovak Republic"
+  },
+  {
+    "char3Code": "SVN",
+    "char2Code": "SI",
+    "numericCode": "705",
+    "name": "SLOVENIA",
+    "shortName": "Slovenia",
+    "fullName": "Republic of Slovenia"
+  },
+  {
+    "char3Code": "SWE",
+    "char2Code": "SE",
+    "numericCode": "752",
+    "name": "SWEDEN",
+    "shortName": "Sweden",
+    "fullName": "Kingdom of Sweden"
+  },
+  {
+    "char3Code": "SWZ",
+    "char2Code": "SZ",
+    "numericCode": "748",
+    "name": "SWAZILAND",
+    "shortName": "Swaziland",
+    "fullName": "Kingdom of Swaziland"
+  },
+  {
+    "char3Code": "SXM",
+    "char2Code": "SX",
+    "numericCode": "534",
+    "name": "SINT MAARTEN",
+    "shortName": "Sint Maarten",
+    "fullName": "Sint Maarten"
+  },
+  {
+    "char3Code": "SYC",
+    "char2Code": "SC",
+    "numericCode": "690",
+    "name": "SEYCHELLES",
+    "shortName": "Seychelles",
+    "fullName": "Republic of Seychelles"
+  },
+  {
+    "char3Code": "SYR",
+    "char2Code": "SY",
+    "numericCode": "760",
+    "name": "SYRIA",
+    "shortName": "Syria",
+    "fullName": "Syrian Arab Republic"
+  },
+  {
+    "char3Code": "TCA",
+    "char2Code": "TC",
+    "numericCode": "796",
+    "name": "TURKS AND CAICOS ISLANDS",
+    "shortName": "Turks and Caicos Islands",
+    "fullName": "Turks and Caicos Islands"
+  },
+  {
+    "char3Code": "TCD",
+    "char2Code": "TD",
+    "numericCode": "148",
+    "name": "CHAD",
+    "shortName": "Chad",
+    "fullName": "Republic of Chad"
+  },
+  {
+    "char3Code": "TGO",
+    "char2Code": "TG",
+    "numericCode": "768",
+    "name": "TOGO",
+    "shortName": "Togo",
+    "fullName": "Togolese Republic"
+  },
+  {
+    "char3Code": "THA",
+    "char2Code": "TH",
+    "numericCode": "764",
+    "name": "THAILAND",
+    "shortName": "Thailand",
+    "fullName": "Kingdom of Thailand"
+  },
+  {
+    "char3Code": "TJK",
+    "char2Code": "TJ",
+    "numericCode": "762",
+    "name": "TAJIKISTAN",
+    "shortName": "Tajikistan",
+    "fullName": "Republic of Tajikistan"
+  },
+  {
+    "char3Code": "TKL",
+    "char2Code": "TK",
+    "numericCode": "772",
+    "name": "TOKELAU",
+    "shortName": "Tokelau",
+    "fullName": "Tokelau"
+  },
+  {
+    "char3Code": "TKM",
+    "char2Code": "TM",
+    "numericCode": "795",
+    "name": "TURKMENISTAN",
+    "shortName": "Turkmenistan",
+    "fullName": "Turkmenistan"
+  },
+  {
+    "char3Code": "TLS",
+    "char2Code": "TL",
+    "numericCode": "626",
+    "name": "TIMOR-LESTE",
+    "shortName": "Timor-Leste",
+    "fullName": "Democratic Republic of Timor-Leste"
+  },
+  {
+    "char3Code": "TON",
+    "char2Code": "TO",
+    "numericCode": "776",
+    "name": "TONGA",
+    "shortName": "Tonga",
+    "fullName": "Kingdom of Tonga"
+  },
+  {
+    "char3Code": "TTO",
+    "char2Code": "TT",
+    "numericCode": "780",
+    "name": "TRINIDAD AND TOBAGO",
+    "shortName": "Trinidad and Tobago",
+    "fullName": "Republic of Trinidad and Tobago"
+  },
+  {
+    "char3Code": "TUN",
+    "char2Code": "TN",
+    "numericCode": "788",
+    "name": "TUNISIA",
+    "shortName": "Tunisia",
+    "fullName": "Republic of Tunisia"
+  },
+  {
+    "char3Code": "TUR",
+    "char2Code": "TR",
+    "numericCode": "792",
+    "name": "TURKEY",
+    "shortName": "Turkey",
+    "fullName": "Republic of Turkey"
+  },
+  {
+    "char3Code": "TUV",
+    "char2Code": "TV",
+    "numericCode": "798",
+    "name": "TUVALU",
+    "shortName": "Tuvalu",
+    "fullName": "Tuvalu"
+  },
+  {
+    "char3Code": "TWN",
+    "char2Code": "TW",
+    "numericCode": "158",
+    "name": "TAIWAN",
+    "shortName": "Taiwan",
+    "fullName": "Taiwan"
+  },
+  {
+    "char3Code": "TZA",
+    "char2Code": "TZ",
+    "numericCode": "834",
+    "name": "TANZANIA",
+    "shortName": "Tanzania",
+    "fullName": "United Republic of Tanzania"
+  },
+  {
+    "char3Code": "UGA",
+    "char2Code": "UG",
+    "numericCode": "800",
+    "name": "UGANDA",
+    "shortName": "Uganda",
+    "fullName": "Republic of Uganda"
+  },
+  {
+    "char3Code": "UKR",
+    "char2Code": "UA",
+    "numericCode": "804",
+    "name": "UKRAINE",
+    "shortName": "Ukraine",
+    "fullName": "Ukraine"
+  },
+  {
+    "char3Code": "URY",
+    "char2Code": "UY",
+    "numericCode": "858",
+    "name": "URUGUAY",
+    "shortName": "Uruguay",
+    "fullName": "Oriental Republic of Uruguay"
+  },
+  {
+    "char3Code": "USA",
+    "char2Code": "US",
+    "numericCode": "840",
+    "name": "UNITED STATES",
+    "shortName": "United States",
+    "fullName": "United States of America"
+  },
+  {
+    "char3Code": "UZB",
+    "char2Code": "UZ",
+    "numericCode": "860",
+    "name": "UZBEKISTAN",
+    "shortName": "Uzbekistan",
+    "fullName": "Republic of Uzbekistan"
+  },
+  {
+    "char3Code": "VAT",
+    "char2Code": "VA",
+    "numericCode": "336",
+    "name": "VATICAN CITY",
+    "shortName": "Vatican City",
+    "fullName": "State of the Vatican City"
+  },
+  {
+    "char3Code": "VCT",
+    "char2Code": "VC",
+    "numericCode": "670",
+    "name": "SAINT VINCENT AND THE GRENADINES",
+    "shortName": "Saint Vincent and the Grenadines",
+    "fullName": "Saint Vincent and the Grenadines"
+  },
+  {
+    "char3Code": "VEN",
+    "char2Code": "VE",
+    "numericCode": "862",
+    "name": "VENEZUELA",
+    "shortName": "Venezuela",
+    "fullName": "Bolivarian Republic of Venezuela"
+  },
+  {
+    "char3Code": "VGB",
+    "char2Code": "VG",
+    "numericCode": "092",
+    "name": "VIRGIN ISLANDS, BRITISH",
+    "shortName": "Virgin Islands, British",
+    "fullName": "Virgin Islands, British"
+  },
+  {
+    "char3Code": "VIR",
+    "char2Code": "VI",
+    "numericCode": "850",
+    "name": "VIRGIN ISLANDS, U.S.",
+    "shortName": "Virgin Islands, U.S.",
+    "fullName": "United States Virgin Islands"
+  },
+  {
+    "char3Code": "VNM",
+    "char2Code": "VN",
+    "numericCode": "704",
+    "name": "VIETNAM",
+    "shortName": "Vietnam",
+    "fullName": "Socialist Republic of Vietnam"
+  },
+  {
+    "char3Code": "VUT",
+    "char2Code": "VU",
+    "numericCode": "548",
+    "name": "VANUATU",
+    "shortName": "Vanuatu",
+    "fullName": "Republic of Vanuatu"
+  },
+  {
+    "char3Code": "WLF",
+    "char2Code": "WF",
+    "numericCode": "876",
+    "name": "WALLIS AND FUTUNA",
+    "shortName": "Wallis and Futuna",
+    "fullName": "Wallis and Futuna"
+  },
+  {
+    "char3Code": "WSM",
+    "char2Code": "WS",
+    "numericCode": "882",
+    "name": "SAMOA",
+    "shortName": "Samoa",
+    "fullName": "Independent State of Samoa"
+  },
+  {
+    "char3Code": "XAC",
+    "char2Code": "XA",
+    "numericCode": "902",
+    "name": "ASHMORE AND CARTIER ISLANDS",
+    "shortName": "Ashmore and Cartier Islands",
+    "fullName": "Territory of Ashmore and Cartier Islands"
+  },
+  {
+    "char3Code": "XAZ",
+    "char2Code": null,
+    "numericCode": "909",
+    "name": "ENTITY 1",
+    "shortName": "Entity 1",
+    "fullName": "Entity 1"
+  },
+  {
+    "char3Code": "XBI",
+    "char2Code": "QS",
+    "numericCode": "904",
+    "name": "BASSAS DA INDIA",
+    "shortName": "Bassas da India",
+    "fullName": "Bassas da India"
+  },
+  {
+    "char3Code": "XBK",
+    "char2Code": "XB",
+    "numericCode": "903",
+    "name": "BAKER ISLAND",
+    "shortName": "Baker Island",
+    "fullName": "Baker Island"
+  },
+  {
+    "char3Code": "XCR",
+    "char2Code": null,
+    "numericCode": "910",
+    "name": "ENTITY 2",
+    "shortName": "Entity 2",
+    "fullName": "Entity 2"
+  },
+  {
+    "char3Code": "XCS",
+    "char2Code": "XC",
+    "numericCode": "906",
+    "name": "CORAL SEA ISLANDS",
+    "shortName": "Coral Sea Islands",
+    "fullName": "Coral Sea Islands Territory"
+  },
+  {
+    "char3Code": "XCY",
+    "char2Code": null,
+    "numericCode": "911",
+    "name": "ENTITY 3",
+    "shortName": "Entity 3",
+    "fullName": "Entity 3"
+  },
+  {
+    "char3Code": "XEU",
+    "char2Code": "XE",
+    "numericCode": "915",
+    "name": "EUROPA ISLAND",
+    "shortName": "Europa Island",
+    "fullName": "Europa Island"
+  },
+  {
+    "char3Code": "XGL",
+    "char2Code": "QX",
+    "numericCode": "917",
+    "name": "GLORIOSO ISLANDS",
+    "shortName": "Glorioso Islands",
+    "fullName": "Glorioso Islands"
+  },
+  {
+    "char3Code": "XGZ",
+    "char2Code": "XG",
+    "numericCode": "916",
+    "name": "GAZA STRIP",
+    "shortName": "Gaza Strip",
+    "fullName": "Gaza Strip"
+  },
+  {
+    "char3Code": "XHO",
+    "char2Code": "XH",
+    "numericCode": "919",
+    "name": "HOWLAND ISLAND",
+    "shortName": "Howland Island",
+    "fullName": "Howland Island"
+  },
+  {
+    "char3Code": "XJA",
+    "char2Code": "XU",
+    "numericCode": "922",
+    "name": "JOHNSTON ATOLL",
+    "shortName": "Johnston Atoll",
+    "fullName": "Johnston Atoll"
+  },
+  {
+    "char3Code": "XJM",
+    "char2Code": "XJ",
+    "numericCode": "920",
+    "name": "JAN MAYEN",
+    "shortName": "Jan Mayen",
+    "fullName": "Jan Mayen"
+  },
+  {
+    "char3Code": "XJN",
+    "char2Code": "QU",
+    "numericCode": "923",
+    "name": "JUAN DE NOVA ISLAND",
+    "shortName": "Juan de Nova Island",
+    "fullName": "Juan de Nova Island"
+  },
+  {
+    "char3Code": "XJV",
+    "char2Code": "XQ",
+    "numericCode": "921",
+    "name": "JARVIS ISLAND",
+    "shortName": "Jarvis Island",
+    "fullName": "Jarvis Island"
+  },
+  {
+    "char3Code": "XKM",
+    "char2Code": null,
+    "numericCode": "912",
+    "name": "ENTITY 4",
+    "shortName": "Entity 4",
+    "fullName": "Entity 4"
+  },
+  {
+    "char3Code": "XKN",
+    "char2Code": null,
+    "numericCode": "913",
+    "name": "ENTITY 5",
+    "shortName": "Entity 5",
+    "fullName": "Entity 5"
+  },
+  {
+    "char3Code": "XKR",
+    "char2Code": "XM",
+    "numericCode": "924",
+    "name": "KINGMAN REEF",
+    "shortName": "Kingman Reef",
+    "fullName": "Kingman Reef"
+  },
+  {
+    "char3Code": "XKS",
+    "char2Code": "XK",
+    "numericCode": "901",
+    "name": "KOSOVO",
+    "shortName": "Kosovo",
+    "fullName": "Republic of Kosovo"
+  },
+  {
+    "char3Code": "XMW",
+    "char2Code": "QM",
+    "numericCode": "925",
+    "name": "MIDWAY ISLANDS",
+    "shortName": "Midway Islands",
+    "fullName": "Midway Islands"
+  },
+  {
+    "char3Code": "XNV",
+    "char2Code": "XV",
+    "numericCode": "926",
+    "name": "NAVASSA ISLAND",
+    "shortName": "Navassa Island",
+    "fullName": "Navassa Island"
+  },
+  {
+    "char3Code": "XPL",
+    "char2Code": "XL",
+    "numericCode": "927",
+    "name": "PALMYRA ATOLL",
+    "shortName": "Palmyra Atoll",
+    "fullName": "Palmyra Atoll"
+  },
+  {
+    "char3Code": "XPR",
+    "char2Code": "XP",
+    "numericCode": "928",
+    "name": "PARACEL ISLANDS",
+    "shortName": "Paracel Islands",
+    "fullName": "Paracel Islands"
+  },
+  {
+    "char3Code": "XQZ",
+    "char2Code": "QZ",
+    "numericCode": "900",
+    "name": "AKROTIRI",
+    "shortName": "Akrotiri",
+    "fullName": "Akrotiri"
+  },
+  {
+    "char3Code": "XSP",
+    "char2Code": "XS",
+    "numericCode": "929",
+    "name": "SPRATLY ISLANDS",
+    "shortName": "Spratly Islands",
+    "fullName": "Spratly Islands"
+  },
+  {
+    "char3Code": "XSV",
+    "char2Code": "XR",
+    "numericCode": "930",
+    "name": "SVALBARD",
+    "shortName": "Svalbard",
+    "fullName": "Svalbard"
+  },
+  {
+    "char3Code": "XTR",
+    "char2Code": "XT",
+    "numericCode": "931",
+    "name": "TROMELIN ISLAND",
+    "shortName": "Tromelin Island",
+    "fullName": "Tromelin Island"
+  },
+  {
+    "char3Code": "XWB",
+    "char2Code": "XW",
+    "numericCode": "934",
+    "name": "WEST BANK",
+    "shortName": "West Bank",
+    "fullName": "West Bank"
+  },
+  {
+    "char3Code": "XWK",
+    "char2Code": "QW",
+    "numericCode": "933",
+    "name": "WAKE ISLAND",
+    "shortName": "Wake Island",
+    "fullName": "Wake Island"
+  },
+  {
+    "char3Code": "XXD",
+    "char2Code": "XD",
+    "numericCode": "907",
+    "name": "DHEKELIA",
+    "shortName": "Dhekelia",
+    "fullName": "Dhekelia"
+  },
+  {
+    "char3Code": "YEM",
+    "char2Code": "YE",
+    "numericCode": "887",
+    "name": "YEMEN",
+    "shortName": "Yemen",
+    "fullName": "Republic of Yemen"
+  },
+  {
+    "char3Code": "ZAF",
+    "char2Code": "ZA",
+    "numericCode": "710",
+    "name": "SOUTH AFRICA",
+    "shortName": "South Africa",
+    "fullName": "Republic of South Africa"
+  },
+  {
+    "char3Code": "ZMB",
+    "char2Code": "ZM",
+    "numericCode": "894",
+    "name": "ZAMBIA",
+    "shortName": "Zambia",
+    "fullName": "Republic of Zambia"
+  },
+  {
+    "char3Code": "ZWE",
+    "char2Code": "ZW",
+    "numericCode": "716",
+    "name": "ZIMBABWE",
+    "shortName": "Zimbabwe",
+    "fullName": "Republic of Zimbabwe"
+  }
+]
