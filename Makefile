@@ -23,7 +23,7 @@ INSTALL = $(PIP) install --no-deps --disable-pip-version-check
 
 BUILD_DIRS = .tox bin build dist include lib lib64 man share genc.egg-info
 
-.PHONY: all build clean test tox
+.PHONY: all build clean data test tox
 
 all: build
 
@@ -41,6 +41,9 @@ build: $(PYTHON)
 clean:
 	rm -rf $(BUILD_DIRS)
 	rm -f $(HERE)/.coverage
+
+data:
+	$(PYTHON) build.py "data/GENC Standard Index XML Ed3.0.zip"
 
 test:
 	$(NOSE) -s -d -v $(TEST_ARG)

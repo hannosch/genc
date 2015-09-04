@@ -29,7 +29,7 @@ PY_PREAMBLE = """\
 
 from collections import namedtuple
 
-Region = namedtuple('Region', 'alpha3 alpha2 numeric name shortname fullname')
+Region = namedtuple('Region', 'alpha3 alpha2 numeric name uppername fullname')
 
 REGIONS = [
 """
@@ -37,8 +37,8 @@ PY_NAMEMAP = collections.OrderedDict([
     ('char3Code', 'alpha3'),
     ('char2Code', 'alpha2'),
     ('numericCode', 'numeric'),
-    ('name', 'name'),
-    ('shortName', 'shortname'),
+    ('shortName', 'name'),
+    ('name', 'uppername'),
     ('fullName', 'fullname'),
 ])
 PY_REGION = """\
