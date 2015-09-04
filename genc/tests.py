@@ -43,6 +43,12 @@ class TestData(TestCase):
         self.assertTrue(len(REGIONS) > 200)
         self.assertTrue(len(REGIONS) < 500)
 
+    def test_iterable(self):
+        i = 0
+        for region in REGIONS:
+            i += 1
+        self.assertEqual(i, len(REGIONS))
+
 
 class TestRegion(TestCase):
 

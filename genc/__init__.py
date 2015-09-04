@@ -37,4 +37,9 @@ def region_by_name(name, default=None):
     return _name.get(name, default)
 
 
-__all__ = ('region_by_alpha2', 'region_by_alpha3', 'region_by_name')
+__all__ = (
+    'region_by_alpha2',
+    'region_by_alpha3',
+    'region_by_name',
+    'REGIONS',
+)
