@@ -22,6 +22,31 @@ NS = {
     'genc-cmn': 'http://api.nsgreg.nga.mil/schema/genc/3.0/genc-cmn',
     'xsi': 'http://www.w3.org/2001/XMLSchema-instance',
 }
+PY_PREAMBLE = """\
+# -*- coding: utf-8 -*-
+#
+# This file is auto generated.
+
+from collections import namedtuple
+
+Region = namedtuple('Region', 'alpha3 alpha2 numeric name shortname fullname')
+
+REGIONS = [
+"""
+PY_NAMEMAP = collections.OrderedDict([
+    ('char3Code', 'alpha3'),
+    ('char2Code', 'alpha2'),
+    ('numericCode', 'numeric'),
+    ('name', 'name'),
+    ('shortName', 'shortname'),
+    ('fullName', 'fullname'),
+])
+PY_REGION = """\
+    Region(%s, %s, %s,
+           %s,
+           %s,
+           %s),
+"""
 
 
 def extract_xml(filename):
@@ -56,15 +81,21 @@ def write_data(regions):
     regions = sorted(regions, key=operator.itemgetter('char3Code'))
     with open(JSON_FILE, 'wt') as fd:
         json.dump(regions, fd, ensure_ascii=False, indent=2)
-    return
     # TODO Write a file with Python friendly names and using named
     # tuples instead
     with open(PY_FILE, 'wt') as fd:
-        fd.write('# -*- coding: utf-8 -*-\n#\n')
-        fd.write('# This file is auto generated.\n\n')
-        fd.write('REGIONS = ')
-        fd.write(json.dumps(regions, ensure_ascii=False, indent=4))
-        fd.write('\n')
+        fd.write(PY_PREAMBLE)
+        for region in regions:
+            # fd.write(json.dumps(regions, ensure_ascii=False, indent=4))
+            data = []
+            for in_ in PY_NAMEMAP.keys():
+                value = region[in_]
+                if value is None:
+                    data.append("None")
+                else:
+                    data.append("'%s'" % value)
+            fd.write(PY_REGION % tuple(data))
+        fd.write(']\n')
 
 
 def main(filename):
