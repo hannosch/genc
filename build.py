@@ -14,15 +14,16 @@ import sys
 from xml.etree import ElementTree
 import zipfile
 
-JSON_FILE = 'data/regions.json'
-PY_FILE = 'genc/regions.py'
 XML_FILE = 'data/data.xml'
 NS = {
     'genc': 'http://api.nsgreg.nga.mil/schema/genc/3.0',
     'genc-cmn': 'http://api.nsgreg.nga.mil/schema/genc/3.0/genc-cmn',
     'xsi': 'http://www.w3.org/2001/XMLSchema-instance',
 }
-PY_PREAMBLE = """\
+
+REGIONS_JSON = 'data/regions.json'
+REGIONS_PY = 'genc/regions.py'
+REGIONS_PY_PREAMBLE = """\
 # -*- coding: utf-8 -*-
 #
 # This file is auto generated.
@@ -33,7 +34,7 @@ Region = namedtuple('Region', 'alpha3 alpha2 numeric name uppername fullname')
 
 REGIONS = [
 """
-PY_NAMEMAP = collections.OrderedDict([
+REGIONS_PY_NAMEMAP = collections.OrderedDict([
     ('char3Code', 'alpha3'),
     ('char2Code', 'alpha2'),
     ('numericCode', 'numeric'),
@@ -41,26 +42,25 @@ PY_NAMEMAP = collections.OrderedDict([
     ('name', 'uppername'),
     ('fullName', 'fullname'),
 ])
-PY_REGION = """\
+REGION_PY_TEMPLATE = """\
     Region(%s, %s, %s,
            %s,
            %s,
            %s),
 """
+SUBDIVISIONS_JSON = 'data/subdivisions.json'
 
 
 def extract_xml(filename):
     if os.path.isfile(XML_FILE):
         return XML_FILE
     with zipfile.ZipFile(filename, 'r') as myzip:
-        myzip.extract('GENC Standard Index Ed3.0.xml', 'data/')
-    shutil.move('data/GENC Standard Index Ed3.0.xml', XML_FILE)
+        myzip.extract('GENC Standard Ed3.0.xml', 'data/')
+    shutil.move('data/GENC Standard Ed3.0.xml', XML_FILE)
     return XML_FILE
 
 
-def parse_xml(filename):
-    tree = ElementTree.parse(filename)
-    root = tree.getroot()
+def parse_regions(root):
     regions = []
     for element in root.iterfind('genc:GeopoliticalEntityEntry', NS):
         region = collections.OrderedDict()
@@ -83,26 +83,52 @@ def parse_xml(filename):
     return regions
 
 
-def write_data(regions):
+def parse_subdivisions(root):
+    subdivisions = []
+    for element in root.iterfind('genc:AdministrativeSubdivisionEntry', NS):
+        subdivision = collections.OrderedDict()
+        codes = element.find('genc:encoding', NS)
+        subdivision['char6Code'] = codes.find('genc-cmn:char6Code', NS).text
+        subdivision['category'] = element.find(
+            'genc:subdivisionCategory', NS).text
+        subdivision['country'] = element.find('genc:country', NS).text
+        names = element.find('genc:name', NS)
+        subdivision['name'] = names.find('genc:name', NS).text
+        subdivisions.append(subdivision)
+    return subdivisions
+
+
+def parse_xml(filename):
+    tree = ElementTree.parse(filename)
+    root = tree.getroot()
+    return (parse_regions(root), parse_subdivisions(root))
+
+
+def write_data(regions, subdivisions):
     regions = sorted(regions, key=operator.itemgetter('char3Code'))
-    with open(JSON_FILE, 'wt') as fd:
+    subdivisions = sorted(subdivisions, key=operator.itemgetter('char6Code'))
+    with open(REGIONS_JSON, 'wt') as fd:
         json.dump(regions, fd, ensure_ascii=False, indent=2)
-    with open(PY_FILE, 'wt') as fd:
-        fd.write(PY_PREAMBLE)
+    with open(SUBDIVISIONS_JSON, 'wt') as fd:
+        json.dump(subdivisions, fd, ensure_ascii=False, indent=2)
+
+    with open(REGIONS_PY, 'wt') as fd:
+        fd.write(REGIONS_PY_PREAMBLE)
         for region in regions:
             data = []
-            for in_ in PY_NAMEMAP.keys():
+            for in_ in REGIONS_PY_NAMEMAP.keys():
                 value = region[in_]
                 if value is None:
                     data.append("None")
                 else:
                     data.append("'%s'" % value)
-            fd.write(PY_REGION % tuple(data))
+            fd.write(REGION_PY_TEMPLATE % tuple(data))
         fd.write(']\n')
 
 
 def main(filename):
-    write_data(parse_xml(extract_xml(filename)))
+    regions, subdivisions = parse_xml(extract_xml(filename))
+    write_data(regions, subdivisions)
 
 
 if __name__ == '__main__':

@@ -43,7 +43,7 @@ clean:
 	rm -f $(HERE)/.coverage
 
 data:
-	$(PYTHON) build.py "data/GENC Standard Index XML Ed3.0.zip"
+	$(PYTHON) build.py "data/GENC Standard XML Ed3.0.zip"
 
 test:
 	$(NOSE) -s -d -v $(TEST_ARG)
