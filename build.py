@@ -73,6 +73,12 @@ def parse_xml(filename):
                 region[name] = None
         for name in ('name', 'shortName', 'fullName'):
             region[name] = element.find('genc:%s' % name, NS).text
+        if region['char3Code'].startswith('AX'):
+            # filter out internal regions
+            continue
+        if region['shortName'].startswith('Entity '):
+            # filter out more internal regions
+            continue
         regions.append(region)
     return regions
 

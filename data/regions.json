@@ -120,30 +120,6 @@
     "fullName": "Republic of Austria"
   },
   {
-    "char3Code": "AX1",
-    "char2Code": "A1",
-    "numericCode": "932",
-    "name": "UNKNOWN",
-    "shortName": "Unknown",
-    "fullName": "Unknown"
-  },
-  {
-    "char3Code": "AX2",
-    "char2Code": "A2",
-    "numericCode": "918",
-    "name": "GUANTANAMO BAY NAVAL BASE",
-    "shortName": "Guantanamo Bay Naval Base",
-    "fullName": "Guantanamo Bay Naval Base"
-  },
-  {
-    "char3Code": "AX3",
-    "char2Code": "A3",
-    "numericCode": "914",
-    "name": "ENTITY 6",
-    "shortName": "Entity 6",
-    "fullName": "Entity 6"
-  },
-  {
     "char3Code": "AZE",
     "char2Code": "AZ",
     "numericCode": "031",
@@ -1976,14 +1952,6 @@
     "fullName": "Territory of Ashmore and Cartier Islands"
   },
   {
-    "char3Code": "XAZ",
-    "char2Code": null,
-    "numericCode": "909",
-    "name": "ENTITY 1",
-    "shortName": "Entity 1",
-    "fullName": "Entity 1"
-  },
-  {
     "char3Code": "XBI",
     "char2Code": "QS",
     "numericCode": "904",
@@ -2000,28 +1968,12 @@
     "fullName": "Baker Island"
   },
   {
-    "char3Code": "XCR",
-    "char2Code": null,
-    "numericCode": "910",
-    "name": "ENTITY 2",
-    "shortName": "Entity 2",
-    "fullName": "Entity 2"
-  },
-  {
     "char3Code": "XCS",
     "char2Code": "XC",
     "numericCode": "906",
     "name": "CORAL SEA ISLANDS",
     "shortName": "Coral Sea Islands",
     "fullName": "Coral Sea Islands Territory"
-  },
-  {
-    "char3Code": "XCY",
-    "char2Code": null,
-    "numericCode": "911",
-    "name": "ENTITY 3",
-    "shortName": "Entity 3",
-    "fullName": "Entity 3"
   },
   {
     "char3Code": "XEU",
@@ -2086,22 +2038,6 @@
     "name": "JARVIS ISLAND",
     "shortName": "Jarvis Island",
     "fullName": "Jarvis Island"
-  },
-  {
-    "char3Code": "XKM",
-    "char2Code": null,
-    "numericCode": "912",
-    "name": "ENTITY 4",
-    "shortName": "Entity 4",
-    "fullName": "Entity 4"
-  },
-  {
-    "char3Code": "XKN",
-    "char2Code": null,
-    "numericCode": "913",
-    "name": "ENTITY 5",
-    "shortName": "Entity 5",
-    "fullName": "Entity 5"
   },
   {
     "char3Code": "XKR",

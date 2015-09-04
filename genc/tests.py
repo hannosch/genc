@@ -19,7 +19,7 @@ class TestAPI(TestCase):
     def test_alpha3(self):
         self.assertEqual(genc.region_by_alpha3('DEU').name, 'Germany')
         self.assertEqual(genc.region_by_alpha3('dEu').name, 'Germany')
-        self.assertEqual(genc.region_by_alpha3('XAZ').alpha2, None)
+        self.assertEqual(genc.region_by_alpha3('None'), None)
         self.assertEqual(genc.region_by_alpha3('None', 1), 1)
 
     def test_name(self):
