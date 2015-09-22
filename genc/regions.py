@@ -2,6 +2,7 @@
 #
 # This file is auto generated.
 
+from __future__ import unicode_literals
 from collections import namedtuple
 
 Region = namedtuple('Region', 'alpha3 alpha2 numeric name uppername fullname')
