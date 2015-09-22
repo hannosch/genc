@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.2 (unreleased)
+0.2 (2015-09-22)
 ----------------
 
 * Ensure that all attributes are proper Unicode.
