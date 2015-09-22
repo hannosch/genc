@@ -12,7 +12,7 @@ with open(os.path.join(here, 'README.rst'), encoding='utf-8') as fd:
 with open(os.path.join(here, 'CHANGES.rst'), encoding='utf-8') as fd:
     CHANGES = fd.read()
 
-__version__ = '0.2'
+__version__ = '0.3'
 
 setup(
     name='genc',
