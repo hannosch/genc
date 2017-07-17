@@ -1,0 +1,16 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.6
+    steps:
+      - checkout
+      - restore_cache:
+          key: deps1-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
+      - run: make
+      - save_cache:
+          key: deps1-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
+          paths:
+            - "~/.cache/pip"
+      - run: make test

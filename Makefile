@@ -1,6 +1,7 @@
 HERE = $(shell pwd)
 BIN = $(HERE)/bin
 TESTS ?= genc
+CIRCLECI ?= false
 TRAVIS ?= false
 
 ifeq ($(TRAVIS), true)
@@ -28,7 +29,9 @@ BUILD_DIRS = .tox bin build dist include lib lib64 man share genc.egg-info
 all: build
 
 $(PYTHON):
-ifeq ($(TRAVIS), true)
+ifeq ($(CIRCLECI), true)
+	python -m venv .
+else ifeq ($(TRAVIS), true)
 	virtualenv .
 else
 	virtualenv-3.4 .
