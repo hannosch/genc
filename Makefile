@@ -4,7 +4,11 @@ TESTS ?= genc
 CIRCLECI ?= false
 TRAVIS ?= false
 
-ifeq ($(TRAVIS), true)
+ifeq ($(CIRCLECI), true)
+	PYTHON = python
+	PIP = $(BIN)/pip
+	NOSE = $(BIN)/nosetests
+else ifeq ($(TRAVIS), true)
 	PYTHON = python
 	PIP = pip
 	NOSE = nosetests
@@ -12,6 +16,12 @@ else
 	PYTHON = $(BIN)/python
 	PIP = $(BIN)/pip
 	NOSE = $(BIN)/nosetests
+endif
+
+PYTHON_VERSION = $(shell $(PYTHON) -c "import sys; print('.'.join([str(s) for s in sys.version_info][:2]))")
+PYTHON_2 = yes
+ifeq ($(findstring 3.,$(PYTHON_VERSION)), 3.)
+	PYTHON_2 = no
 endif
 
 ifeq ($(TESTS), genc)
@@ -30,7 +40,11 @@ all: build
 
 $(PYTHON):
 ifeq ($(CIRCLECI), true)
-	python -m venv .
+ifeq ("$(PYTHON_2)", "yes")
+	$(PYTHON) -m virtualenv .
+else
+	$(PYTHON) -m venv .
+endif
 else ifeq ($(TRAVIS), true)
 	virtualenv .
 else

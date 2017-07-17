@@ -1,9 +1,45 @@
 version: 2
 
-jobs:
+workflows:
+  version: 2
   build:
+    jobs:
+      - "python-2.7"
+      - "python-3.5"
+      - "python-3.6"
+
+jobs:
+  "python-2.7":
     docker:
-      - image: circleci/python:3.6
+      - image: python:2.7
+    steps:
+      - checkout
+      - restore_cache:
+          key: deps1-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
+      - run: make
+      - save_cache:
+          key: deps1-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
+          paths:
+            - "~/.cache/pip"
+      - run: make test
+
+  "python-3.5":
+    docker:
+      - image: python:3.5
+    steps:
+      - checkout
+      - restore_cache:
+          key: deps1-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
+      - run: make
+      - save_cache:
+          key: deps1-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
+          paths:
+            - "~/.cache/pip"
+      - run: make test
+
+  "python-3.6":
+    docker:
+      - image: python:3.6
     steps:
       - checkout
       - restore_cache:
