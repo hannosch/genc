@@ -34,7 +34,7 @@ ifeq ($(CIRCLECI), true)
 else ifeq ($(TRAVIS), true)
 	virtualenv .
 else
-	virtualenv-3.4 .
+	virtualenv-3.6 .
 endif
 
 build: $(PYTHON)
