@@ -2,16 +2,11 @@ HERE = $(shell pwd)
 BIN = $(HERE)/bin
 TESTS ?= genc
 CIRCLECI ?= false
-TRAVIS ?= false
 
 ifeq ($(CIRCLECI), true)
 	PYTHON = python
 	PIP = $(BIN)/pip
 	NOSE = $(BIN)/nosetests
-else ifeq ($(TRAVIS), true)
-	PYTHON = python
-	PIP = pip
-	NOSE = nosetests
 else
 	PYTHON = $(BIN)/python
 	PIP = $(BIN)/pip
@@ -45,8 +40,6 @@ ifeq ("$(PYTHON_2)", "yes")
 else
 	$(PYTHON) -m venv .
 endif
-else ifeq ($(TRAVIS), true)
-	virtualenv .
 else
 	virtualenv-3.6 .
 endif
