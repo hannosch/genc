@@ -15,10 +15,10 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: deps1-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
+          key: deps1-py27-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
       - run: make
       - save_cache:
-          key: deps1-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
+          key: deps1-py27-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
           paths:
             - "~/.cache/pip"
       - run: make test
@@ -29,10 +29,10 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: deps1-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
+          key: deps1-py35-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
       - run: make
       - save_cache:
-          key: deps1-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
+          key: deps1-py35-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
           paths:
             - "~/.cache/pip"
       - run: make test
@@ -43,10 +43,10 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: deps1-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
+          key: deps1-py36-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
       - run: make
       - save_cache:
-          key: deps1-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
+          key: deps1-py36-{{ .Branch }}-{{ checksum "requirements/test.txt" }}
           paths:
             - "~/.cache/pip"
       - run: make test
