@@ -3,7 +3,6 @@
 *.py[cod]
 
 *.egg-info/
-.tox/
 __pycache__/
 bin/
 build/
