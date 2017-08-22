@@ -1,12 +1,12 @@
 HERE = $(shell pwd)
 BIN = $(HERE)/bin
-TESTS ?= genc
 CIRCLECI ?= false
 
-ifeq ($(TESTS), genc)
-	TEST_ARG = genc --with-coverage --cover-package genc --cover-erase
+TESTS ?= genc
+ifeq ("$(TESTS)", "genc")
+	TEST_ARG = --cov-config=.coveragerc --cov=genc genc
 else
-	TEST_ARG = --tests=$(TESTS)
+	TEST_ARG = $(TESTS)
 endif
 
 ifeq ($(CIRCLECI), true)
@@ -43,7 +43,7 @@ data:
 
 test:
 ifeq ($(CIRCLECI), true)
-	$(BIN)/nosetests -s -d -v $(TEST_ARG)
+	$(BIN)/pytest $(TEST_ARG)
 else
 	circleci build --job python-2.7
 	circleci build --job python-3.5

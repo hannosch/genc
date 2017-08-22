@@ -1,61 +1,54 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from unittest import TestCase
-
 import genc
 from genc.regions import Region
 
 
-class TestAPI(TestCase):
-
-    def test_alpha2(self):
-        self.assertEqual(genc.region_by_alpha2('DE').name, 'Germany')
-        self.assertEqual(genc.region_by_alpha2('de').name, 'Germany')
-        self.assertEqual(genc.region_by_alpha2('None'), None)
-        self.assertEqual(genc.region_by_alpha2('None', 1), 1)
-
-    def test_alpha3(self):
-        self.assertEqual(genc.region_by_alpha3('DEU').name, 'Germany')
-        self.assertEqual(genc.region_by_alpha3('dEu').name, 'Germany')
-        self.assertEqual(genc.region_by_alpha3('None'), None)
-        self.assertEqual(genc.region_by_alpha3('None', 1), 1)
-
-    def test_name(self):
-        self.assertEqual(genc.region_by_name('Germany').alpha2, 'DE')
-        self.assertEqual(genc.region_by_name('germANY').alpha2, 'DE')
-        self.assertEqual(genc.region_by_name('None', 1), 1)
+def test_api_alpha2():
+    assert genc.region_by_alpha2('DE').name == 'Germany'
+    assert genc.region_by_alpha2('de').name == 'Germany'
+    assert genc.region_by_alpha2('None') is None
+    assert genc.region_by_alpha2('None', 1) == 1
 
 
-class TestCache(TestCase):
-
-    def test_length(self):
-        self.assertTrue(len(genc._alpha2) > 200)
-        self.assertTrue(len(genc._alpha3) > 200)
-        self.assertTrue(len(genc._name) > 200)
-        self.assertEqual(len(genc._alpha3), len(genc.REGIONS))
+def test_api_alpha3():
+    assert genc.region_by_alpha3('DEU').name == 'Germany'
+    assert genc.region_by_alpha3('dEu').name == 'Germany'
+    assert genc.region_by_alpha3('None') is None
+    assert genc.region_by_alpha3('None', 1) == 1
 
 
-class TestData(TestCase):
-
-    def test_length(self):
-        self.assertTrue(len(genc.REGIONS) > 200)
-        self.assertTrue(len(genc.REGIONS) < 500)
-
-    def test_iterable(self):
-        i = 0
-        for region in genc.REGIONS:
-            i += 1
-        self.assertEqual(i, len(genc.REGIONS))
+def test_api_name():
+    assert genc.region_by_name('Germany').alpha2 == 'DE'
+    assert genc.region_by_name('germANY').alpha2 == 'DE'
+    assert genc.region_by_name('None', 1) == 1
 
 
-class TestRegion(TestCase):
+def test_cache_length():
+    assert len(genc._alpha2) > 200
+    assert len(genc._alpha3) > 200
+    assert len(genc._name) > 200
+    assert len(genc._alpha3) == len(genc.REGIONS)
 
-    def test_new(self):
-        region = Region('ABC', 'AB', '012', 'älpha', 'ÄLPHA', 'älpha')
-        self.assertEqual(region.alpha3, 'ABC')
-        self.assertEqual(region.alpha2, 'AB')
-        self.assertEqual(region.numeric, '012')
-        self.assertEqual(region.name, 'älpha')
-        self.assertEqual(region.uppername, 'ÄLPHA')
-        self.assertEqual(region.fullname, 'älpha')
+
+def test_data_length():
+    assert len(genc.REGIONS) > 200
+    assert len(genc.REGIONS) < 500
+
+
+def test_data_iterable():
+    i = 0
+    for region in genc.REGIONS:
+        i += 1
+    assert i == len(genc.REGIONS)
+
+
+def test_region_new():
+    region = Region('ABC', 'AB', '012', 'älpha', 'ÄLPHA', 'älpha')
+    assert region.alpha3 == 'ABC'
+    assert region.alpha2 == 'AB'
+    assert region.numeric == '012'
+    assert region.name == 'älpha'
+    assert region.uppername == 'ÄLPHA'
+    assert region.fullname == 'älpha'

@@ -14,6 +14,7 @@ def _build_cache(name):
     return dict([(reg[idx].upper(), reg) for reg in REGIONS
                  if reg[idx] is not None])
 
+
 _alpha2 = _build_cache('alpha2')
 _alpha3 = _build_cache('alpha3')
 _name = _build_cache('name')

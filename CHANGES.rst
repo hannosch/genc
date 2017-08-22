@@ -4,6 +4,8 @@ Changelog
 0.3 (unreleased)
 ----------------
 
+* Switch test runner to pytest.
+
 * Drop Python 2.6 and 3.4 compatibility, add 3.5 and 3.6 support.
 
 0.2 (2015-09-22)
